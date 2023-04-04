@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Punch Halftone Italic";
+  src: url("../public/fonts/punchhalfital.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Punch Expanded Italic";
+  src: url("../public/fonts/punchexpandital.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  background-color: #121212;
+}
+
+.overlay {
+  position: absolute;
+  opacity: 0.3;
+  z-index: 30;
+  pointer-events: none;
+}

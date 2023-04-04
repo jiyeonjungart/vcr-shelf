@@ -1,0 +1,65 @@
+.header-ctn {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100vh;
+  height: 323px;
+  margin-top: auto;
+  transform: rotate(-90deg);
+  overflow: visible;
+  transform-origin: 160px 160px;
+}
+
+.header-ctn > h2 {
+  font-family: "Punch Expanded Italic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4vh;
+  letter-spacing: 0.005em;
+  color: #ffffff;
+  border-bottom: #ffffff 2px solid;
+  text-align: center;
+  white-space: nowrap;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.header-ctn > h1 {
+  font-family: "Punch Halftone Italic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12vh;
+  letter-spacing: 0.03em;
+  color: #f0f42e;
+  text-align: center;
+  border-bottom: #ffffff 2px solid;
+  white-space: nowrap;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.year-selections {
+  display: flex;
+  flex-direction: row-reverse;
+  border-bottom: white 2px solid;
+  overflow-x: scroll;
+}
+
+.years {
+  font-family: "Punch Expanded Italic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: 0.005em;
+  color: #ffffff;
+  text-align: center;
+  align-items: flex-start;
+  padding: 10px 41px;
+  gap: 10px;
+}
+
+.years:hover {
+  background-color: #235bde;
+}
