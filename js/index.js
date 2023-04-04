@@ -18,3 +18,5 @@ decades.forEach((year) => {
 });
 
 // ================== MAIN ====================
+
+console.log(vcrData);
