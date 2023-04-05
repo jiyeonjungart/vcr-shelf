@@ -1,5 +1,10 @@
+import handleRouting from "./handleRouting.js";
+import { removeAllChildNodes } from "./helpers.js";
+
+//JSON FETCH
 import vcrData from "../public/data/data.json" assert { type: "json" };
 
+//HANDLE HOMEPAGE BUTTON
 const homeBtn = document.querySelector(".home-button");
 homeBtn.onclick = () => (window.location = "/");
 
@@ -11,6 +16,28 @@ const decades = ["1960s", "1970s", "1980s", "1990s", "2000s", "2010s"];
 yearSelectionDiv.addEventListener("wheel", (e) => {
   yearSelectionDiv.scrollLeft -= e.deltaY;
 });
+
+// const handleRouting = (vcrData) => {
+//   const urlName = vcrData.name.replace(/\s+/g, "-").toLowerCase();
+//   window.history.pushState(vcrData, "", `/#${urlName}`);
+//   urlLocationHandler();
+// };
+
+// const urlLocationHandler = async () => {
+//   try {
+//     const location = window.location.pathname;
+//     if (location.length === 0) {
+//       location = "/";
+//     }
+
+//     const html = await fetch("/tv.html").then((res) => res.text());
+//     const contentCtn = document.querySelector(".content-ctn");
+//     contentCtn.innerHTML = html;
+//     document.title = "TV";
+//   } catch (error) {
+//     window.location = "/";
+//   }
+// };
 
 //HANDLE DECADE BUTTON FILTER
 const handleFilterByDecade = (year) => {
@@ -32,6 +59,7 @@ const handleFilterByDecade = (year) => {
     }
 
     const tape = document.createElement("img");
+    tape.onclick = () => handleRouting(data);
     tape.src = data?.img || "";
     tapeCtn.appendChild(tape);
     return tapeCtn;
@@ -51,6 +79,7 @@ const handleFilterByDecade = (year) => {
     }
 
     const tape = document.createElement("img");
+    tape.onclick = () => handleRouting(data);
     tape.src = data?.img || "";
     tapeCtn.appendChild(tape);
     return tapeCtn;
@@ -70,6 +99,7 @@ const handleFilterByDecade = (year) => {
     }
 
     const tape = document.createElement("img");
+    tape.onclick = () => handleRouting(data);
     tape.src = data?.img || "";
     tapeCtn.appendChild(tape);
     return tapeCtn;
@@ -89,16 +119,11 @@ const handleFilterByDecade = (year) => {
     }
 
     const tape = document.createElement("img");
+    tape.onclick = () => handleRouting(data);
     tape.src = data?.img || "";
     tapeCtn.appendChild(tape);
     return tapeCtn;
   });
-
-  const removeAllChildNodes = (parent) => {
-    while (parent.firstChild) {
-      parent.removeChild(parent.firstChild);
-    }
-  };
 
   const shelves = document.querySelectorAll(".shelf");
 
@@ -141,6 +166,7 @@ const firstShelf = vcrDataToRead.slice(0, 7).map((data) => {
   tapeCtn.className = "tape-ctn";
 
   const tape = document.createElement("img");
+  tape.onclick = () => handleRouting(data);
   tape.src = data.img;
   tapeCtn.appendChild(tape);
   return tapeCtn;
@@ -151,6 +177,7 @@ const secondShelf = vcrDataToRead.slice(7, 13).map((data) => {
   tapeCtn.className = "tape-ctn";
 
   const tape = document.createElement("img");
+  tape.onclick = () => handleRouting(data);
   tape.src = data.img;
   tapeCtn.appendChild(tape);
   return tapeCtn;
@@ -161,6 +188,7 @@ const thirdShelf = vcrDataToRead.slice(13, 20).map((data) => {
   tapeCtn.className = "tape-ctn";
 
   const tape = document.createElement("img");
+  tape.onclick = () => handleRouting(data);
   tape.src = data.img;
   tapeCtn.appendChild(tape);
   return tapeCtn;
@@ -171,6 +199,7 @@ const fourthShelf = vcrDataToRead.slice(20, 25).map((data) => {
   tapeCtn.className = "tape-ctn";
 
   const tape = document.createElement("img");
+  tape.onclick = () => handleRouting(data);
   tape.src = data.img;
   tapeCtn.appendChild(tape);
   return tapeCtn;

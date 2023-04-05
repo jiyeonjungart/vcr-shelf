@@ -69,7 +69,7 @@
 
 /* ---------- MAIN CONTENT ---------- */
 
-.vcr-ctn {
+.content-ctn {
   position: absolute;
   left: 18.5rem;
   width: 1200px;
@@ -102,4 +102,81 @@
   transform: rotate(-90deg);
   transform-origin: 50px 50px;
   cursor: pointer;
+}
+
+.modal-ctn {
+  display: none;
+}
+
+.modal-ctn-vis {
+  display: block;
+  position: absolute;
+  z-index: 33;
+  background-color: black;
+  opacity: 0.3;
+  width: 100vw;
+  height: 100vh;
+}
+
+.modal {
+  display: none;
+}
+
+.modal-vis {
+  position: absolute;
+  width: 649px;
+  height: 414px;
+  z-index: 33;
+  opacity: 1;
+  left: 30%;
+  top: 25%;
+
+  background: #fffefc;
+  border-radius: 24px;
+}
+
+.modal-inner {
+  box-sizing: border-box;
+  position: absolute;
+  width: 617px;
+  height: 382px;
+  left: 16px;
+  top: 16px;
+
+  border: 3px solid rgba(49, 121, 230, 0.72);
+  border-radius: 24px;
+}
+
+.text-ctn {
+  position: absolute;
+  z-index: 33;
+  width: 531px;
+  height: 319px;
+  left: 52.76px;
+  top: 30px;
+
+  font-family: "Impact Label";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 0.005em;
+
+  color: #0738b4;
+
+  transform: rotate(-2.66deg);
+}
+
+.lines {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  z-index: 32;
+  margin-top: 4rem;
+}
+
+.lines > div {
+  margin: auto;
+  width: 487px;
+  height: 0px;
+  border: 2px solid rgba(207, 207, 207, 0.72);
 }

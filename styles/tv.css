@@ -1,0 +1,50 @@
+.tv {
+  position: absolute;
+  margin: 1rem 3rem;
+  height: 836px;
+  width: 846px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.tape {
+  position: absolute;
+  left: -10rem;
+  top: 39.3rem;
+  animation: insertTape 3s forwards;
+  transform-origin: top;
+  width: 1292px;
+  height: 205px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+audio {
+  display: none;
+}
+
+iframe {
+  position: absolute;
+  left: 8rem;
+  top: 8rem;
+  border-radius: 10px;
+  width: 690px;
+  height: 450px;
+}
+
+@keyframes insertTape {
+  0% {
+    transform: scale(100%);
+    z-index: 10;
+  }
+
+  80% {
+    transform: scale(42%);
+    z-index: 10;
+  }
+
+  100% {
+    transform: scale(41%);
+    z-index: 9;
+  }
+}

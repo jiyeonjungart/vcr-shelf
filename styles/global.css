@@ -8,6 +8,11 @@
   src: url("../public/fonts/punchexpandital.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Impact Label";
+  src: url("../public/fonts/impactlabel.ttf") format("truetype");
+}
+
 body {
   margin: 0;
   overflow: hidden;

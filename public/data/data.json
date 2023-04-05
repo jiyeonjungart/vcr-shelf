@@ -7,7 +7,7 @@
     "location": "Richmond, VA",
     "school": "John Rolfe Middle School",
     "link": "https://www.youtube.com/embed/QPHKfFj0oyI/",
-    "img": "../public/tapes/tape-img-20.png"
+    "img": "/public/tapes/tape-img-20.png"
   },
   {
     "id": 1,
@@ -17,7 +17,7 @@
     "location": "Kintnersville, PA",
     "school": "Palisades High School",
     "link": "https://www.youtube.com/embed/5p1E2UF9wQ0",
-    "img": "../public/tapes/tape-img-11.png"
+    "img": "/public/tapes/tape-img-11.png"
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
     "location": "Iowa City High School",
     "school": "Pennsbury High School",
     "link": "https://www.youtube.com/embed/fgNmL82dfHM",
-    "img": "../public/tapes/tape-img-02.png"
+    "img": "/public/tapes/tape-img-02.png"
   },
   {
     "id": 3,
@@ -37,7 +37,7 @@
     "location": "Madison, TN",
     "school": "Goodpasture Christian School",
     "link": "https://www.youtube.com/embed/A8wC8SXWuPk",
-    "img": "../public/tapes/tape-img-12.png"
+    "img": "/public/tapes/tape-img-12.png"
   },
   {
     "id": 4,
@@ -47,7 +47,7 @@
     "location": "Boca Raton, FL",
     "school": "Boca Raton High School",
     "link": "https://www.youtube.com/embed/dUBJ3csXs2Q",
-    "img": "../public/tapes/tape-img-21.png"
+    "img": "/public/tapes/tape-img-21.png"
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
     "location": "Fairless Hills, PA",
     "school": "Pennsbury High School",
     "link": "https://www.youtube.com/embed/9f1gvUWp7zc",
-    "img": "../public/tapes/tape-img-13.png"
+    "img": "/public/tapes/tape-img-13.png"
   },
   {
     "id": 6,
@@ -67,7 +67,7 @@
     "location": "Manchester, CT ",
     "school": "Manchester High School",
     "link": "https://www.youtube.com/embed/QwbW0fS5_4Y",
-    "img": "../public/tapes/tape-img-14.png"
+    "img": "/public/tapes/tape-img-14.png"
   },
   {
     "id": 7,
@@ -77,7 +77,7 @@
     "location": "Levittown NY",
     "school": "MacArthur High School",
     "link": "https://www.youtube.com/embed/25gxy8bLlok",
-    "img": "../public/tapes/tape-img-15.png"
+    "img": "/public/tapes/tape-img-15.png"
   },
   {
     "id": 8,
@@ -87,7 +87,7 @@
     "location": "St Cloud, FL",
     "school": "St. Cloud High School",
     "link": "https://www.youtube.com/embed/PsgXo-5xCEE",
-    "img": "../public/tapes/tape-img-24.png"
+    "img": "/public/tapes/tape-img-24.png"
   },
   {
     "id": 9,
@@ -97,7 +97,7 @@
     "location": "Chester, PA",
     "school": "East High School in West Chester",
     "link": "https://www.youtube.com/embed/8G44hFOI3SE",
-    "img": "../public/tapes/tape-img-16.png"
+    "img": "/public/tapes/tape-img-16.png"
   },
   {
     "id": 10,
@@ -107,7 +107,7 @@
     "location": "Solon, OH",
     "school": "Solon High School",
     "link": "https://www.youtube.com/embed/Q_CNOAFsVgA",
-    "img": "../public/tapes/tape-img-04.png"
+    "img": "/public/tapes/tape-img-04.png"
   },
   {
     "id": 11,
@@ -117,7 +117,7 @@
     "location": "Glendora, CA",
     "school": "Glendora High School",
     "link": "https://www.youtube.com/embed/98VTC_k-10M",
-    "img": "../public/tapes/tape-img-06.png"
+    "img": "/public/tapes/tape-img-06.png"
   },
   {
     "id": 12,
@@ -127,7 +127,7 @@
     "location": "Avella, PA ",
     "school": "Avella Area Junior Senior High School",
     "link": "https://www.youtube.com/embed/NsjTHduqWPw",
-    "img": "../public/tapes/tape-img-17.png"
+    "img": "/public/tapes/tape-img-17.png"
   },
   {
     "id": 13,
@@ -137,7 +137,7 @@
     "location": "Tuscumbia, AL",
     "school": "Deshler High School",
     "link": "https://www.youtube.com/embed/NtboDDzpejQ",
-    "img": "../public/tapes/tape-img-22.png"
+    "img": "/public/tapes/tape-img-22.png"
   },
   {
     "id": 14,
@@ -147,7 +147,7 @@
     "location": "Glendora, CA",
     "school": "Glendora High School",
     "link": "https://www.youtube.com/embed/5CRxQiUROxE",
-    "img": "../public/tapes/tape-img-07.png"
+    "img": "/public/tapes/tape-img-07.png"
   },
   {
     "id": 15,
@@ -157,7 +157,7 @@
     "location": "Utica, NY",
     "school": "Proctor High School",
     "link": "https://www.youtube.com/embed/6mzoRpbj11g",
-    "img": "../public/tapes/tape-img-18.png"
+    "img": "/public/tapes/tape-img-18.png"
   },
   {
     "id": 16,
@@ -167,7 +167,7 @@
     "location": "Houston, TX",
     "school": "Westside High School",
     "link": "https://www.youtube.com/embed/DNItI0lRL20",
-    "img": "../public/tapes/tape-img-01.png"
+    "img": "/public/tapes/tape-img-01.png"
   },
   {
     "id": 17,
@@ -177,7 +177,7 @@
     "location": "Unknown",
     "school": "Unknown",
     "link": "https://www.youtube.com/embed/73KjO7e8PVw",
-    "img": "../public/tapes/tape-img-08.png"
+    "img": "/public/tapes/tape-img-08.png"
   },
   {
     "id": 18,
@@ -187,7 +187,7 @@
     "location": "Oviedo, FL",
     "school": "Oviedo High School",
     "link": "https://www.youtube.com/embed/SfsrA91EXs4",
-    "img": "../public/tapes/tape-img-23.png"
+    "img": "/public/tapes/tape-img-23.png"
   },
   {
     "id": 19,
@@ -197,7 +197,7 @@
     "location": "Genoa, IL",
     "school": "High School of Genoa-Kingston",
     "link": "https://www.youtube.com/embed/xrjokRtZM4E",
-    "img": "../public/tapes/tape-img-05.png"
+    "img": "/public/tapes/tape-img-05.png"
   },
   {
     "id": 20,
@@ -207,7 +207,7 @@
     "location": "Malibu, CA",
     "school": "Malibu High School",
     "link": "https://www.youtube.com/embed/gpdHe3QZiiY",
-    "img": "../public/tapes/tape-img-25.png"
+    "img": "/public/tapes/tape-img-25.png"
   },
   {
     "id": 21,
@@ -217,7 +217,7 @@
     "location": "Unknown",
     "school": "Unknown",
     "link": "https://www.youtube.com/embed/1cGdDB8ecBY",
-    "img": "../public/tapes/tape-img-10.png"
+    "img": "/public/tapes/tape-img-10.png"
   },
   {
     "id": 22,
@@ -227,7 +227,7 @@
     "location": "Colton, CA",
     "school": "Colton High School",
     "link": "https://www.youtube.com/embed/Rv7ludTCa0I",
-    "img": "../public/tapes/tape-img-03.png"
+    "img": "/public/tapes/tape-img-03.png"
   },
   {
     "id": 23,
@@ -237,7 +237,7 @@
     "location": "South Burlington, VT ",
     "school": "South Burlington High School",
     "link": "https://www.youtube.com/embed/3NfSFuO50v8",
-    "img": "../public/tapes/tape-img-19.png"
+    "img": "/public/tapes/tape-img-19.png"
   },
   {
     "id": 24,
@@ -247,6 +247,6 @@
     "location": "Unknown",
     "school": "Unknown",
     "link": "https://www.youtube.com/embed/UO4mau3T1h0",
-    "img": "../public/tapes/tape-img-09.png"
+    "img": "/public/tapes/tape-img-09.png"
   }
 ]
