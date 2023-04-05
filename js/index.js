@@ -6,7 +6,7 @@ import vcrData from "../public/data/data.json" assert { type: "json" };
 
 //HANDLE HOMEPAGE BUTTON
 const homeBtn = document.querySelector(".home-button");
-homeBtn.onclick = () => (window.location = "/");
+homeBtn.onclick = () => (window.location = "/vcr-shelf");
 
 let vcrDataToRead = vcrData.slice();
 
@@ -16,28 +16,6 @@ const decades = ["1960s", "1970s", "1980s", "1990s", "2000s", "2010s"];
 yearSelectionDiv.addEventListener("wheel", (e) => {
   yearSelectionDiv.scrollLeft -= e.deltaY;
 });
-
-// const handleRouting = (vcrData) => {
-//   const urlName = vcrData.name.replace(/\s+/g, "-").toLowerCase();
-//   window.history.pushState(vcrData, "", `/#${urlName}`);
-//   urlLocationHandler();
-// };
-
-// const urlLocationHandler = async () => {
-//   try {
-//     const location = window.location.pathname;
-//     if (location.length === 0) {
-//       location = "/";
-//     }
-
-//     const html = await fetch("/tv.html").then((res) => res.text());
-//     const contentCtn = document.querySelector(".content-ctn");
-//     contentCtn.innerHTML = html;
-//     document.title = "TV";
-//   } catch (error) {
-//     window.location = "/";
-//   }
-// };
 
 //HANDLE DECADE BUTTON FILTER
 const handleFilterByDecade = (year) => {
