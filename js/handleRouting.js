@@ -39,10 +39,10 @@ const handleRouting = (vcrData) => {
   const video = document.createElement("iframe");
   tv.className = "tv";
   tape.className = "tape";
-  tv.src = "/vcr-shelf/public/overlay/monitor-01.png";
+  tv.src = "./public/overlay/monitor-01.png";
   tape.src = vcrData.img;
   tape.onclick = () => setVisibility(vcrData);
-  audio.src = "/vcr-shelf/public/sounds/tape-sound.mp3";
+  audio.src = "./public/sounds/tape-sound.mp3";
   audio.autoplay = true;
   video.src = vcrData.link;
   contentCtn.appendChild(tv);
