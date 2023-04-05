@@ -90,7 +90,7 @@
   display: flex;
   flex-direction: row;
   padding-left: 2rem;
-  width: 100%;
+  width: calc(100vw * 2);
   height: 680px;
   border-bottom: 2px white double;
   align-items: flex-end;

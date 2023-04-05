@@ -20,6 +20,8 @@ body {
 }
 
 .overlay {
+  width: 100vw;
+  height: 100vh;
   position: absolute;
   opacity: 0.3;
   z-index: 30;

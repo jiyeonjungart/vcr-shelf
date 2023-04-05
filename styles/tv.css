@@ -1,5 +1,5 @@
 .tv {
-  position: absolute;
+  position: relative;
   margin: 1rem 3rem;
   height: 836px;
   width: 846px;
@@ -8,13 +8,13 @@
 }
 
 .tape {
-  position: absolute;
-  left: -10rem;
-  top: 39.3rem;
+  position: relative;
   animation: insertTape 3s forwards;
   transform-origin: top;
-  width: 1292px;
-  height: 205px;
+  bottom: 15rem;
+  right: 8rem;
+  width: 1200px;
+  height: 190px;
   z-index: 10;
   cursor: pointer;
 }
@@ -24,9 +24,9 @@ audio {
 }
 
 iframe {
-  position: absolute;
+  position: relative;
+  bottom: 58rem;
   left: 8rem;
-  top: 8rem;
   border-radius: 10px;
   width: 690px;
   height: 450px;
